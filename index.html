@@ -26,40 +26,28 @@ footer{
 
 }
 
-        div {
+     div {
   width: 100px;
-  height: 50px;
-  background-color: DarkOliveGreen;
-  font-weight: bold;
+  height: 100px;
+  background: DarkOliveGreen;
   position: relative;
   animation-name: myAnimation;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
+  animation-duration: 3s;  
+  animation-delay: 2s;
+  animation-fill-mode: both;
 }
-
-#div1 {animation-timing-function: aqui;}
-#div2 {animation-timing-function: nós;}
-#div3 {animation-timing-function: amamos;}
-#div4 {animation-timing-function: largatixas;}
-#div5 {animation-timing-function: uhuuu;}
 
 @keyframes myAnimation {
-  from {left: 0px;}
-  to {left: 300px;}
+  from {top: 0px; background-color: DarkSeaGreen;}
+  to {top: 200px; background-color: DarkSlateGrey;}
 }
+        <div>largatixaaas</div>
+
+        
 </style>
 </head>
 <body>
 
-<h1>CSS animation-timing-function Property</h1>
-
-<p>The animation-timing-function property specifies the speed curve of the animation. The following example shows some of the different speed curves that can be used:</p>
-
-<div id="div1">linear</div>
-<div id="div2">ease</div>
-<div id="div3">ease-in</div>
-<div id="div4">ease-out</div>
-<div id="div5">ease-in-out</div>
 
 
 
